@@ -24,12 +24,8 @@ public interface Api {
     //Call<String> getUsers();
     //AWO w moim przykladzie , chce pozyskac wystawionego Stringa
     //ale trzeba zwrapowac odpowiedz do obj Call <Typ>
-
     //AWO kiedy wyciagamy plain text :
 
     @GET()
     Call<String> getPlainText();
-
-
-
 }
